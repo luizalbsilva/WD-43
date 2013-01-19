@@ -20,7 +20,7 @@ header {
 	*/
 }
 div section {
-	height: 400px;
+	height: auto;
 	background-color: silver;
 }
 footer {
@@ -61,4 +61,16 @@ footer {
 }
 .menu ul li a:hover {
 	background: red;
+ }
+ .box {
+ 	border: 1px solid red;
+ 	width: 497px;
+ 	padding: 10px 15px 20px 30px;
+ }
+ .box p {
+ 	font: 14px OpenSansLight;
+ 	text-align: justify;
+ 	line-height: 25px;
+ 	letter-spacing: 2px;
+ 	word-spacing: 4px;
  }
