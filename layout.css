@@ -1,0 +1,23 @@
+header, section, footer {
+	border: 2px solid black;
+}
+#container {
+	margin: auto;
+	border: 2px solid red;
+	width: 998px; /* Medida padrão atual para construção de sites*/
+}
+header {
+	height: 150px;
+	background-color: gray;
+}
+div section {
+	height: 600px;
+	background-color: silver;
+}
+footer {
+	height: 100px;
+	background-color: #666;	
+}
+ul, li {
+	display: inline;
+}
