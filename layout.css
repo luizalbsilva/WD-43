@@ -7,8 +7,14 @@ header, section, footer {
 	width: 998px; /* Medida padrão atual para construção de sites*/
 }
 header {
-	height: 150px;
+	height: auto;
 	background-color: gray;
+	overflow: hidden; 
+	/* Overflow 
+		hidden -> esconde
+		auto -> coloca barra de rolagem se necessário
+		none -> ferva o caldo, passa para outras áreas
+	*/
 }
 div section {
 	height: 600px;
@@ -17,7 +23,4 @@ div section {
 footer {
 	height: 100px;
 	background-color: #666;	
-}
-ul, li {
-	display: inline;
 }
