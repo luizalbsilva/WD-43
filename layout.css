@@ -8,11 +8,9 @@ header, section, footer {
 }
 #container {
 	margin: auto;
-	border: 2px solid red;
 	width: 998px; /* Medida padrão atual para construção de sites*/
 }
 header {
-	height: 300px;
 	background-color: gray;
 	overflow: hidden; 
 	/* Overflow 
@@ -22,18 +20,17 @@ header {
 	*/
 }
 div section {
-	height: 300px;
+	height: 400px;
 	background-color: silver;
 }
 footer {
-	height: 100px;
+	height: 65px;
 	background-color: #666;	
 }
 #logo {
 	background-image: url(logoFord.jpg);
 	background-repeat: no-repeat;
 	background-position: -10px center;
-	border: 1px solid red;
 	width: 106px;
 	height: 90px;
 	/* Tanto font-size 0 qto text-ident negativo pode levar o texto a ser escondido */
@@ -41,16 +38,27 @@ footer {
 	text-indent: -150px;
 }
 #container header nav {
-	background-color: blue;
-}
-.menu {
-	border: 1px solid red;
+	background-color: #444;
 }
 .menu ul li {
 	list-style: none;
 	display: inline-block;
 	width: 245px;
-}
-.menu ul {
 	text-align: center;
 }
+.menu ul li a {
+ 	background: 000#;
+ 	color: #fff;
+ 	display: block;
+ 	margin-top: 0px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	font-family: OpenSansLight;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+}
+.menu ul li a:hover {
+	background: red;
+ }
