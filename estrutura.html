@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="pt-br"> 
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author"content="Luiz Alb Silva" />
+		<meta name="description"content="estrutura de uma página html" />
+		<!-- Até 25 words, comma-separated -->
+		<meta name="keywords"content="html,css,javascript,estrutura,padrão" />
+		<!-- Tempo em segundos -->
+		<meta http-equiv="refresh"content="30" />
+		<link rel="stylesheet" href="./estilo.css" />
+		<script src="./comportamento.js" language="javascript"></script>
+		<!--[if lt IE 9]>
+		<script src="dist/html5shiv.js"></script>
+		<![endif]-->
+		<title>Estrutura de página</title>
+	</head>
+	<body onload="javascript:alerta();" >
+		<h1>Título principal</h1>
+		<p>Iniciando <span id="texto">HTML 5</span></p>
+		<p><cit>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat <em>nulla pariatur</em>. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</cit> é um poema de <strong class="minhaClasse">Cicero</strong></p>
+		<hr>
+		<h2>Outro texto</h2>
+		<p class="minhaClasse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<hr>
+		<div>
+			<h1>Listas</h1>
+			<h2>Listas ordenadas</h2>
+			<ol>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+				<li>Que?</li>
+			</ol>
+			<h2>Listas não ordenadas</h2>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+				<li>Que?</li>
+			</ul>		
+			<h2>Listas de definições</h2>
+			<dl>
+				<dt>Termo</dt>
+				<dd>Definição</dd>
+			</dl>
+		</div>
+
+		<hr>
+
+		<div>
+			<h1>tabelas</h1>
+			<table>
+				<thead>
+					<tr>
+						<td>Curso</td>
+						<td>Instrutor</td>
+						<td>Unidade</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>DW-43</td>
+					<td rowspan="2">Leo</td>
+					<td>SP</td>
+				</tr>
+				<tr>
+					<td>DW-47</td>
+					<td>RJ</td>
+				</tr>
+				<tr>
+					<td>FJ-11</td>
+					<td>Vida</td>
+					<td>DF</td>
+				</tr>
+			</table>
+		</div>
+		<hr>
+		<div>
+			<a target="alvo" href="http://www.twitter.com"><img src="twitter.png" alt="Imagem do Twitter" /></a>
+		</div>
+		<hr>
+		<div>
+			<h2>iframe</h2>
+			<iframe id="alvo" src="intro.html" style="width: 300px; height: 200px; border: solid red"></iframe>
+		</div>
+	</body>
+</html>

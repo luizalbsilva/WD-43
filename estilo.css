@@ -1,0 +1,41 @@
+/* Todos os elementos h1 e cit */
+h1, cit {
+	color:#00FF00;
+	background-color: #FFFF00;
+/*  display vai mudar o comportamento de renderização */
+/*	display: inline; */
+ 	display: block;
+}
+body {
+	background-color: green;
+}
+strong {
+	background-color: gray;
+}
+/* Todas os elementos com a classe "minhaLista" */
+.minhaClasse {
+	color: red;
+}
+/* Somente o objeto com essa id (texto) */
+#texto {
+	color: red;
+}
+/* Somente dos h1 que estiverem dentro de div e todos os h2 */
+div h1, h2 {
+	background: none;
+	color: yellow;
+}
+ol {
+	list-style-type: lower-roman;
+}
+ol li {
+	border: solid;
+}
+dt {
+	font-style: italic;
+	font-weight: bold;
+}
+table {
+	border: solid;
+}
+
