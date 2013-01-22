@@ -28,3 +28,18 @@ p {
 	padding: 0 45px;
 	text-indent: 15px;
 }
+#centro-distribuicao {
+	margin-right: auto;
+	margin-left:  auto;
+	width: 550px;
+} 
+#rodape {
+	color: #777;
+	margin: 30px 0;
+	padding: 30px 0;
+}
+#rodape img {
+	margin-right: 30px;
+	vertical-align: middle;
+	width: 10%;
+}
